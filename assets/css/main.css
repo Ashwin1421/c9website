@@ -6,7 +6,7 @@ html {
   position: relative;
   min-height: 100%;
   padding-top: 99px;
-  padding-bottom: 99px;
+  padding-bottom: 20em;
 }
 
 body {
@@ -20,23 +20,46 @@ body {
 
 .navbar-light .navbar-nav .nav-link{
   font-weight: bold;
-  color: #ffffff;
+  color: #E0E0E0;
 }
 
 .navbar-light .navbar-nav .nav-link:hover {
-  color: #A0A0A0;
+  color: #FFFFFF;
 }
 
+.navbar-light .navbar-nav .active-page {
+  box-shadow: 0 0 0 0 rgba(0, 0, 0, 0.1);
+  color: #FFFFFF;
+}
 .nav-item {
   font-size: 1.05em;
-  text-transform: uppercase;
+  text-transform: capitalize;
+}
+
+.navbar-nav > li > .dropdown-menu > .dropdown-item,
+.navbar-nav > li  > .dropdown-menu {
+  background-color: #163870;
+  color: #FFFFFF;
+}
+
+.dropdown-toggle:active, 
+.dropdown-toggle .show,
+.dropdown-toggle:visited,
+.dropdown-toggle:link,
+.dropdown-item {
+  background:inherit !important; 
+  color: #DFDFDF!important;
+}
+
+.dropdown-toggle:hover,
+.dropdown-item:hover {
+  color: #FFFFFF;
 }
 
 /* Footer section */
 .footer {
-  margin-top: 10em;
-  background-color: #FFFFFF;
-  color: #000000;
+  background-color: #163780;
+  color: #FFFFFF;
 }
 .footer {
   position: absolute;
@@ -50,12 +73,12 @@ body {
 
 .footer a {
   text-decoration: none;
-  color: #000000;
+  color: #FFFFFF;
 }
 
 .footer a:hover{
   text-decoration: none;
-  color: #163780;
+  color: #E0E0E0;
 }
 
 header .navbar-toggler{

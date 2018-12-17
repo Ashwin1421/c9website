@@ -14,15 +14,32 @@
     </button>
     <div class="collapse navbar-collapse" id="navbarCollapse">
         <ul class="navbar-nav ml-auto">
-            <li class="nav-item">
-                <a class="nav-link" href="/about.html">About</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Solutions</a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="#">Contract Vehicles</a>
-            </li>
+            {% for item in site.data.navigation %}
+                {% if item.name == 'About' %}
+                <li class="nav-item dropdown">
+                    <a 
+                        class="nav-link dropdown-toggle" 
+                        href="{{ item.link }}" 
+                        id="navbar-dropdown-menu" 
+                        data-toggle="dropdown"
+                        aria-haspopup="true"
+                        aria-expanded="false">
+                        {{ item.name }}
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbar-dropdown-menu">
+                        {% for sub_item in item.list %}
+                            <a href="{{ sub_item.link }}" class="dropdown-item">{{ sub_item.name }}</a>
+                        {% endfor %}
+                    </div>
+                </li>
+                {% else %}
+                <li class="nav-item">
+                    <a class="nav-link {% if page.url == item.link %} active-page {% endif %}" href="{{ item.link }}">
+                        {{ item.name }}
+                    </a>
+                </li>
+                {% endif %}
+            {% endfor %}
         </ul>
     </div>
 </nav>
