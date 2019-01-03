@@ -5,7 +5,7 @@
 html {
   position: relative;
   min-height: 100%;
-  padding-top: 99px;
+  padding-top: 5rem;
   padding-bottom: 20em;
 }
 
@@ -14,12 +14,19 @@ body {
   margin-bottom: 5em;
 }
 
+/* navbar */
+nav{
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.4);
+}
+.navbar .navbar-brand img{
+  height: 2.5rem;
+  width: auto;
+}
 .navbar-bg{
   background-color: #163870;
 }
 
 .navbar-light .navbar-nav .nav-link{
-  font-weight: bold;
   color: #E0E0E0;
 }
 
@@ -32,7 +39,7 @@ body {
   color: #FFFFFF;
 }
 .nav-item {
-  font-size: 1.05em;
+  font-size: 12pt;
   text-transform: capitalize;
 }
 
@@ -55,10 +62,26 @@ body {
 .dropdown-item:hover {
   color: #FFFFFF;
 }
+/* end: navbar */
+.heading-link, .heading-link:hover {
+  text-decoration: none;
+  color: #000000;
+}
 
+.article {
+  box-shadow: 0 0.1em 0.2em 0 rgba(0, 0, 0, 0.1);
+  width: 100%;
+  margin-top: 1em;
+  margin-bottom: 1em;
+}
+
+.highlight-icon {
+  color: #163870;
+  margin: 2.5rem;
+}
 /* Footer section */
 .footer {
-  background-color: #163780;
+  background-color: #163870;
   color: #FFFFFF;
 }
 .footer {
