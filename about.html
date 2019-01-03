@@ -1,0 +1,14 @@
+---
+layout: default
+title: About
+---
+{% include news.html %}
+<div id="overview" class="container">
+    <h3><a class="heading-link" href="#overview">Overview</a></h3>
+    <p>{{ site.data.overview.content }}</p>
+    {% for i in site.data.overview.list %}
+    <ul>
+        <li>{{ i }}</li>
+    </ul>
+    {% endfor %}
+</div>
