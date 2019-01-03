@@ -4,15 +4,17 @@
   link: /about.html
   list: 
     - name: Awards
-      link: /awards.html
+      link: /awards
     - name: Careers
-      link: /careers.html
+      link: /careers
     - name: Contracting Vehicles
-      link: /contracting-vehicles.html
+      link: /contracting-vehicles
     - name: Leadership
-      link: /leadership.html
+      link: /leadership
     - name: News
-      link: /news.html
+      link: /about.html#news
+    - name: Overview
+      link: /about.html#overview
 - name: Capabilities
   link: /capabilities.html
 - name: Services
