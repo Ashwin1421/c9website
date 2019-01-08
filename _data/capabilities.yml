@@ -1,0 +1,82 @@
+- id: grants-management
+  title: Grants Management
+  description: Lifecycle support from intake through Monitoring & Closeout
+  icon-class: fa-money-bill
+  link: capabilities.html#grants-management
+  content: "A federal grant is an award of financial assistance from a 
+            federal agency to a recipient to carry out a public purpose 
+            of support or stimulation authorized by a law of the United States. 
+            Federal grant agencies have various types of grant programs defined 
+            with tailored grants management processes for the pre-award through 
+            the closeout stages of the corresponding grant program. 
+            Cloud Nine Technologies Inc. has a strong understanding and experience 
+            working with the grants management lifecycle processes associated with 
+            formula as well as competitive grants. We have been actively involved 
+            in the architecture, design and development of an enterprise-wide 
+            grants management system. The system provides an end-to-end solution 
+            for the various stages (pre-award, award, post-award and close-out) 
+            of the grants management lifecycle processes starting from intake of 
+            grant applications tailored for the corresponding grant program through 
+            the funds administration processes for monitoring the grant program. 
+            The system interfaces with Grants.gov for the intake of competitive 
+            grant applications."
+- id: asset-management
+  title: Federal Personal Property and Real Property Asset Management
+  description: 
+  icon-class: fa-university
+  link: capabilities.html#asset-management
+  content: "We have deep understanding of the Federal Asset management Processes, 
+            functional and technical. We have extensive knowledge of the Asset Life 
+            Cycle from acquisition to the disposal of the assets and the various 
+            states of the asset throughout the Asset Life Cycle. Our experience 
+            includes reconciliation of the asset records within various systems 
+            that track the assets from physical, technical and financial aspect 
+            of the assets. We understand the challenges that are faced by the 
+            agencies while doing required rolling inventory and have been able 
+            to conduct large scale existence validation of assets."
+- id: improper-payments
+  title: Improper Payments Reduction
+  description: Reduce Risk, Waste, Fraud & Abuse
+  icon-class: fa-money-check-alt
+  link: capabilities.html#improper-payments
+  content: "'Improper payments' occur when funds go to the wrong recipient, 
+            the recipient receives the incorrect amount of funds (including 
+            overpayments and underpayments), documentation is not available 
+            to support a payment, or the recipient uses funds in an improper 
+            manner. In fiscal year 2009, federal government outlays totaled 
+            $3.5 trillion. Improper payments totaled $110 billion in FY 2009 
+            (Source: http://paymentaccuracy.gov/).
+
+            Cloud Nine Technologies Inc. has been actively working with the 
+            Department of Housing and Urban Development (HUD) in the architecture, 
+            design and development of an award-winning Enterprise Income Verification 
+            (EIV) system to reduce the improper payments in HUD’s rental housing 
+            assistance programs for eligible low-income families, elders and 
+            persons with disabilities. Through increased efficiency and accuracy 
+            in the income and rent determinations, the system assures the participation 
+            of eligible families and assists HUD in meeting the target improper 
+            payment rates in its rental housing assistance programs."
+- id: risk-management
+  title: Program Portfolio & Risk Management 
+  description: Financial Analysis, Risk Assessment, 
+               Performance Indicators Measurement & Analysis, 
+               Predictive Modeling
+  icon-class: fa-money-check-alt
+  link: capabilities.html#risk-management
+  content: 
+- id: data-analytics
+  title: Data & Analytics
+  description: 
+  icon-class: fa-chart-line
+  link: capabilities.html#data-analytics
+  content: "We have extensive experience in managing large volumes of data for 
+            our clients. Our areas of expertise in data management include:
+            <ul>
+              <li>Database Design and Modeling</li>
+              <li>Database Programming</li>
+              <li>Performance Optimization</li>
+              <li>Intra/Inter Agency data exchanges</li>
+              <li>Data Integrity check and validation</li>
+              <li>Data Warehouse and Business Intelligence</li>
+              <li>Data Analysis and Cleansing</li>
+            </ul>"

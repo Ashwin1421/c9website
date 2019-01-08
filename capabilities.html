@@ -1,0 +1,13 @@
+---
+layout: default
+title: Capabilities
+---
+<div id="capabilities" class="container">
+    <h3>Capabilities</h3>
+    {% for c in site.data.capabilities %}
+    <div class="container">
+    <h4 id="{{ c.id }}">{{ c.title }}</h4>
+    <p class="text-justify">{{ c.content }}</p>
+    </div>
+    {% endfor %}
+</div>

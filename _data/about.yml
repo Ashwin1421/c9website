@@ -1,0 +1,116 @@
+leadership:
+  - name: Ranjeev Pamnani
+    designation: President & CEO
+    description: "Ranjeev Pamnani is the President/CEO and co-founder of 
+                  Cloud Nine Technologies Inc. He defines the strategic 
+                  plan and provides vision, direction and leadership to 
+                  help the company reach its goals. This includes setting 
+                  high performance standard and leading by example a team 
+                  of outstanding talented staff, developing external 
+                  relationships to increase market presence, and leading 
+                  the company to a path of sustainable growth. 
+                  Mr. Pamnani has over 17 years of technical and professional 
+                  experience in various disciplines within the information 
+                  technology field. He has provided technical leadership as 
+                  an architect to federal government customers. He is a 
+                  subject matter expert in the domains of Grants Management 
+                  and Improper Federal Payment Reduction. His deep knowledge 
+                  of technologies coupled with his Domain knowledge expertise 
+                  has led to simplified technology solutions for our clients 
+                  that effectively address their business needs."
+  - name: Indranil Sen
+    designation: EVP & COO
+    description: "Indranil Sen is the EVP/COO and co-founder of Cloud Nine 
+                  Technologies Inc. He is responsible for Business and Proposal, 
+                  Development, Program Management, Operations and Customer 
+                  Relationship. He brings extensive technical and management 
+                  experience in leveraging technology to provide value added 
+                  services to our customers. He has expertise in managing 
+                  traditional and non-traditional IT SDLC projects that are 
+                  compliant with CMMI Level 3 practices. Mr. Sen has extensive 
+                  domain knowledge of Improper Federal Payment Reduction - Income 
+                  Verification and Intra-Governmental Data Exchanges. He was 
+                  instrumental in the success of the HUD - Enterprise Income 
+                  Verification program. He also has extensive domain knowledge 
+                  of Asset Management and Asset Life Cycle and has successfully 
+                  led major Asset reconciliation effort for a federal client."
+news: 
+  - date: December 2017
+    content: Cloud Nine receives CMMI Level 3 certification in Development and Services
+  - date: February 2017
+    content: Cloud Nine has been awarded CMS SPARC contract as an 8(a) and a small business, 
+           Cloud Nine will compete for task orders offering a variety of information technology 
+           professional services to all operating divisions within HHS. 
+           SPARC is managed by HHS’ Centers for Medicare & Medicaid Services (CMS). 
+           The types of services available through SPARC is broad and includes - 
+            Requirements Services
+            Design Services
+            Development Services
+            Test Services
+            Security Control Assessment Services
+            Independent Verification and Validation Services
+            Maintenance Services
+            General Support and Business Operations Services
+            Data Request Services
+  - date: February 2012
+    content: Cloud Nine receives CMMI Level 3 certification 
+  - date: December 2011
+    content: Cloud Nine has been awarded the Report of Survey and 
+            Personal Property Asset Management Program Support contract at FAA. 
+            The Personal Property Management Program supports the 
+            operational mission of the FAA through policy, control, visibility and 
+            tracking of all leased and owned assets, as well as Government owned 
+            assets at contractor depots from the time the asset becomes operationally 
+            inuse until the asset is no longer required by the Agency. 
+            
+            The Report of Survey Program is responsible for establishing policy
+            and procedure for the survey of lost, damaged, or destroyed personal property.
+  - date: August 2011
+    content: Cloud Nine Technologies receives CMMI Level 2 certification
+  - date: April 2011
+    content: Cloud Nine Technologies has been chosen as the prime contractor at FAA 
+            under the 7-year $2.0 billion eFAST IDIQ vehicle.
+            
+            eFAST is an IDIQ vehicle for small businesses at FAA to provide a 
+            broad range of comprehensive professional and support services. 
+            Cloud Nine has been awarded the contract for the following four functional areas - 
+                Business Administration and Management (BAM)
+                Computer/Information Systems Development (CSD)
+                Computer Systems Support (CSS)
+                Documentation & Training (D&T)
+  - date: May 2010
+    content: Cloud Nine Technologies receives 8(a) certification
+  - date: March 2008
+    content: Enterprise Income Verification (EIV) system wins the 2008 Excellence.
+            Gov (sponsored by the American Council of Technology) for improving 
+            organizational performance using information technology
+  - date: December 2007
+    content: Enterprise Income Verification (EIV) system wins the Presidential Management 
+            Agenda Excellence Award to improve HUD's overall financial performance 
+            in its rental assistance programs
+overview: "Cloud Nine Technologies Inc. has a proven track record of providing quality IT
+            services and delivering award winning applications to our customers.
+            We have vast experience providing solutions using a wide array of technologies
+            ranging from legacy systems to cutting edge web technologies. Our core expertise
+            includes:
+            <ul>
+              <li>
+                Providing complete software application development solutions using Agile &
+                Waterfall Software Development Methodologies
+              </li>
+              <li>
+                Providing information management solutions using data analytics & BI including
+                data quality/cleansing; development of visual executive dashboards; data analysis
+                and reporting; data warehousing; knowledge management & data modeling
+              </li>
+              <li>
+                Providing portfolio & risk management solutions developing statistical & economic
+                research models & tools (using for e.g. SAS, SPSS) for planning & analysis
+              </li>
+              <li>
+                Providing Program Management (PMO) and Customer Relationship Management
+                (CRM) support for program monitoring, helpdesk support and alignment of
+                business needs with IT
+              </li>
+            </ul>
+            "

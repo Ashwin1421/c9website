@@ -79,6 +79,11 @@ nav{
   color: #163870;
   margin: 2.5rem;
 }
+
+a.dropdown-item {
+  display: block;
+}
+
 /* Footer section */
 .footer {
   background-color: #163870;

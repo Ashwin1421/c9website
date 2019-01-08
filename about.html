@@ -2,13 +2,33 @@
 layout: default
 title: About
 ---
-{% include news.html %}
+<div id="leadership" class="container">
+    <h3>Leadership</h3>
+    {% for leader in site.data.about.leadership %}
+        <div class="container">
+            <div class="card-body">
+                <h5 class="card-title">{{ leader.name }}, {{ leader.designation }}</h5>
+                <p class="card-text text-justify">{{ leader.description }}</p>
+            </div>                
+        </div>            
+    {% endfor %}       
+</div>
+<div id="news" class="container">
+    <h3><a class="heading-link" href="#news">News</a></h3>
+    <div class="row">
+        {% for article in site.data.about.news %}
+        <div class="article card">
+            <div class="card-body">
+                <h5 class="card-title">{{ article.date }}</h5>
+                <!-- <h6 class="card-subtitle mb-2 text-muted"></h6> -->
+                <p class="card-text">{{ article.content }}</p>
+                <!-- <a href="" class="card-link"></a> -->
+            </div>
+        </div>
+        {% endfor %}
+    </div>
+</div>
 <div id="overview" class="container">
     <h3><a class="heading-link" href="#overview">Overview</a></h3>
-    <p>{{ site.data.overview.content }}</p>
-    {% for i in site.data.overview.list %}
-    <ul>
-        <li>{{ i }}</li>
-    </ul>
-    {% endfor %}
+    <p>{{ site.data.about.overview }}</p>
 </div>

@@ -3,4 +3,19 @@ layout: default
 title: Home
 ---
 {% include carousel.html %}
-{% include highlights.html %}
+<!-- highlights -->
+
+<div class="container marketing">
+    <div class="row">
+        {% for c in site.data.capabilities %}
+        <div class="col-lg-3 text-center">
+            <span>
+              <i class="fas {{ c.icon-class }} fa-5x highlight-icon"></i>
+            </span>
+            <h4>{{ c.title }}</h4>
+            <p>{{ c.description }}</p>
+            <p><a class="btn btn-secondary" href="{{ c.link }}" role="button">View details &raquo;</a></p>
+        </div><!-- /.col-lg-3 -->
+        {% endfor %}
+    </div><!-- /.row -->
+</div><!-- /.container -->
