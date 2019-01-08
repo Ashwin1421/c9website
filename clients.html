@@ -4,4 +4,13 @@ title: Clients
 ---
 <div id="clients" class="container">
     <h3>Clients</h3>
+    <div class="row">
+        {% for client in site.data.clients %}
+        <div class="client-container col-lg-4">
+            <a href="{{ client.link }}" title="{{ client.name }}">
+                <img class="text-center client-img" alt="{{ client.name }}" src="assets/images/{{ client.image }}">
+            </a>
+        </div>
+        {% endfor %}
+    </div>
 </div>
