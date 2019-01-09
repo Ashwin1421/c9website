@@ -106,6 +106,9 @@ a.dropdown-item {
   color: rgba(255,255,255,0.75);
   box-shadow: 0 1rem 2rem 2rem rgba(0, 0, 0, 0.1);
 }
+.footer-copyright {
+  background-color: #0f2446;
+}
 .footer {
   position: absolute;
   bottom: 0;
