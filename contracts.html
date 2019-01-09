@@ -7,7 +7,9 @@ title: Contracting Vehicles
     <div class="row">
         {% for vehicle in site.data.contract-vehicles %}
             <div class="text-center col-lg-6">
-                <img alt="{{ vehicle.name }}" src="assets/images/{{ vehicle.image }}">
+                <div class="vehicle-container">
+                    <img class="clearfix vehicle-img" alt="{{ vehicle.name }}" src="assets/images/{{ vehicle.image }}">
+                </div>
                 <h4>{{ vehicle.name }}</h4>
             </div>
         {% endfor %}

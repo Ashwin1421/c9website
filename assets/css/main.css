@@ -79,6 +79,15 @@ nav{
   height: 10rem;
 }
 
+.vehicle-container{
+  margin: auto;
+  width: 15rem;
+  height: 15rem;
+}
+.vehicle-img {
+  padding: 1rem;
+  width: 15rem;
+}
 .client-link, 
 .client-link:hover {
   text-decoration: none;
