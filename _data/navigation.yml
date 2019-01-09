@@ -8,16 +8,16 @@
     - name: Careers
       link: /careers
     - name: Contracting Vehicles
-      link: /contracting-vehicles
+      link: /contracts
     - name: Leadership
-      link: /about.html#leadership
+      link: /about#leadership
     - name: News
-      link: /about.html#news
+      link: /about#news
     - name: Overview
-      link: /about.html#overview
+      link: /about#overview
 - name: Capabilities
   link: /capabilities.html
 - name: Services
-  link: /services.html
+  link: /services
 - name: Clients
-  link: /clients.html
+  link: /clients
