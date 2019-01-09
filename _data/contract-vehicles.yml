@@ -1,0 +1,51 @@
+- name: GSA 8(a) STARS II
+  contract_number: GS00Q17GWD2016
+  period_of_performance: 06/13/2017 to   08/30/2021
+  duns: 145207101
+  description: "8(a) STARS II is a General Services Administration (GSA) 
+                multiple-award, indefinite-delivery/indefinite quantity 
+                (IDIQ), Government-wide Acquisition Contract (GWAC) reserved 
+                solely for 8(a) certified small businesses. It is engineered 
+                to provide federal agencies cutting-edge information technology 
+                (IT) solutions from award-winning 8(a) small businesses like 
+                Cloud Nine Technologies, prequalified by GSA to perform the 
+                work, and allows for long-term planning of large-scale program 
+                requirements. STARS II enables agencies to earn not only 8(a), 
+                but multiple socioeconomic credits possessed by Cloud Nine 
+                through an established contract vehicle instead of traditional, 
+                open market methods – saving substantial time and taxpayer money.
+                <h4>Features</h4>
+                <ul>
+                  <li>$10 Billion Program Ceiling</li>
+                  <li>Task Ordering Out to August 2021 and Performance Out to 2024, Allowing for Long Term Planning of Large Scale Requirements</li>
+                  <li>Directed Task Orders Up to $4 Million Each</li>
+                  <li>Low ¾ of a percent (0.0075) applied to the total price/costs</li>
+                  <li>Multiple Contract Types (e.g., Fixed Price, Labor Hour, Time and Materials, Blended Types)</li>
+                  <li>Compliance with Section 843 of the National Defense Authorization Act (NDAA) of 2008 and Section 863 of NDAA 2009</li>
+                  <li>Complimentary Statement of Work Scope Compatibility Reviews by the Small Business GWAC Center</li>
+                  <li>Minimizes Protest Risk; No Protests on Orders Under $10M, Except on the Grounds That the Order Increases the Scope, Period, or Maximum Value of the GWAC</li>
+                  <li>Permits Other Direct Costs When Integral and Necessary</li>
+                </ul>"
+  image: stars_II_final@1x.png
+- name: Federal Aviation Administration eFAST
+  contract_number: DTFAWA11A-00033
+  description: "The Electronic Federal Aviation Administration (FAA) 
+                Accelerated and Simplified Tasks (eFAST) is the FAA's 
+                preferred contracting vehicle for small business contracts. 
+                eFAST streamlines the procurement process for all stakeholders 
+                using a web-based acquisition tool and automated workflows 
+                compliant with applicable FAA standards. eFAST supports 
+                the following contract types: Firm-Fixed Price, Cost 
+                Reimbursable, Time and Materials, Labor Hour and others 
+                as appropriate.
+                <h4>FEATURES</h4>
+                <ul>
+                  <li>Satisfies Small Business and 8(a) requirements</li>
+                  <li>Multiple contract types and performance based solutions available</li>
+                  <li>Direct awards to 8(a) companies up to $3.5 M</li>
+                </ul>"
+  image: Faa_Efast_logo.jpg
+- name: GSA Schedule IT 70
+  image: GSA_Schedule_IT_70.png
+- name: CMS SPARC (8(a) & Small Business)
+  image: CMS_SPARC_logo.jpg
