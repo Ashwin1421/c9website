@@ -14,7 +14,7 @@
                 but multiple socioeconomic credits possessed by Cloud Nine 
                 through an established contract vehicle instead of traditional, 
                 open market methods – saving substantial time and taxpayer money.
-                <h4>Features</h4>
+                <h5>Features</h5>
                 <ul>
                   <li>$10 Billion Program Ceiling</li>
                   <li>Task Ordering Out to August 2021 and Performance Out to 2024, Allowing for Long Term Planning of Large Scale Requirements</li>
@@ -25,8 +25,83 @@
                   <li>Complimentary Statement of Work Scope Compatibility Reviews by the Small Business GWAC Center</li>
                   <li>Minimizes Protest Risk; No Protests on Orders Under $10M, Except on the Grounds That the Order Increases the Scope, Period, or Maximum Value of the GWAC</li>
                   <li>Permits Other Direct Costs When Integral and Necessary</li>
+                </ul>
+                <h5>SERVICES AVAILABLE FROM Cloud Nine (Constellation I and II)</h5>
+                As a STARS II Constellation I & Constellation II Industry Partner, 
+                Cloud Nine offers a plethora of IT services under the following North 
+                American Industrial Classification System (NAICS) codes:
+                Two constellations based on industry accreditation
+                8(a) STARS II industry partners are classified in two constellations. 
+                Industry partners in both constellations have competitive pricing 
+                and technical proficiency. Constellation II also includes industry 
+                partners with an additional industry credential, such as 
+                <a href='https://web.archive.org/web/20150525071514/http:/www.sei.cmu.edu/cmmi/'>
+                Capability Maturity Model Integration (CMMI)</a>
+                or <a href='http://www.gmsaudit.com/standards.html'>
+                ISO 9001 (quality management system)</a>.
+                <ul>
+                  <li>
+                    FA1: NAICS 541511 - 
+                    <a href='http://www.gsa.gov/portal/content/208177#fa1'>
+                      Custom Computer Programming Services
+                    </a>
+                  </li>
+                  <li>
+                    FA2: NAICS 541512 - 
+                    <a href='http://www.gsa.gov/portal/content/208177#fa2'>
+                      Computer Systems Design Services
+                    </a>
+                  </li>
+                  <li>
+                    FA3: NAICS 541513 - 
+                    <a href='http://www.gsa.gov/portal/content/208177#fa3'>
+                      Computer Facilities Management Services
+                    </a>
+                  </li>
+                  <li>
+                    FA4: NAICS 541519 - 
+                    <a href='http://www.gsa.gov/portal/content/208177#fa4'>
+                      Other Computer Related Services
+                    </a>
+                  </li>
+                </ul>
+                8(a) STARS II offers fixed price, time and materials, labor hour, and 
+                blended task order types, providing greater flexibility in procuring 
+                different types of IT products and services and meeting your mission 
+                requirements. There is also a low 0.75% contract access fee.
+                Cloud Nine Technologies is a CMMI DEV Level-III certified and CMMI SVC Level-III certified
+                The shortcut to this page is 
+                <a href='https://www.gsa.gov/portal/content/105243'>www.gsa.gov/stars2</a>.
+                <h5>EASE IN BECOMING A STARS II ORDERING CONTRACTING OFFICER (OCO)</h5>
+                Prior to issuing orders under 8(a) STARS II, federal contracting 
+                officers are required to receive training on the use of the 8(a) 
+                STARS II contract from the GSA Small Business GWAC Center and be 
+                granted a written Delegation of Procurement Authority (DPA). 
+                Training can be obtained in as little as one to two hours at no cost via:
+                <ul>
+                  <li>Webinar;</li>
+                  <li>Self-paced, online training;</li>
+                  <li>Conference call; or</li>
+                  <li>Onsite training presented by GSA GWAC Center experts.</li>
+                </ul>
+                NOTE: DPA may be granted the same day, although typical cycle time 
+                is two business days and many training sessions offer Continuous Learning Points.
+                <h5>ORDERING OPTIONS</h5>
+                <ul>
+                  <li>
+                    <b>Direct Acquisitions</b> – The agency requiring services uses its own 
+                    internal acquisition capabilities / staff to procure services and is 
+                    responsible for the entire acquisition.
+                  </li>
+                  <li>
+                    <b>Assisted Acquisitions</b> – One agency has the requirement but 
+                    uses the services of another third party agency to procure the 
+                    needed services. In an assisted acquisition socioeconomic 
+                    credit for a prime contractor always goes to the funding agency.
+                  </li>
                 </ul>"
   image: stars_II_final@1x.png
+  link: gsa-8-stars-ii
 - name: Federal Aviation Administration eFAST
   contract_number: DTFAWA11A-00033
   description: "The Electronic Federal Aviation Administration (FAA) 
@@ -38,13 +113,25 @@
                 the following contract types: Firm-Fixed Price, Cost 
                 Reimbursable, Time and Materials, Labor Hour and others 
                 as appropriate.
-                <h4>FEATURES</h4>
+                <h5>FEATURES</h5>
                 <ul>
                   <li>Satisfies Small Business and 8(a) requirements</li>
                   <li>Multiple contract types and performance based solutions available</li>
                   <li>Direct awards to 8(a) companies up to $3.5 M</li>
+                </ul>
+                <h5>SERVICES AVAILABLE FROM Cloud Nine (Constellation I and II)</h5>
+                Cloud Nine is qualified and eligible to participate in the procurement 
+                process for contract awards (including directed 8(a) awards) for the 
+                following five functional areas:
+                <ul>
+                  <li>Business Administration & Management (BAM)</li>
+                  <li>Computer/Information Systems Development (CSD)</li>
+                  <li>Computer Systems Support (CSS)</li>
+                  <li>Documentation & Training (D&T)</li>
+                  <li>Research and Development (R&D)</li>
                 </ul>"
   image: Faa_Efast_logo.jpg
+  link: faa-efast
 - name: GSA Schedule IT 70
   image: GSA_Schedule_IT_70.png
 - name: CMS SPARC (8(a) & Small Business)
