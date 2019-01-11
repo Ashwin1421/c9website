@@ -1,0 +1,24 @@
+---
+layout: default
+title: GSA 8(a) STARS II
+---
+{% assign vehicle = site.data.contract-vehicles[0] %}
+<div id="gsa-8-stars-ii" class="container">
+    <h4>{{ vehicle.name }}</h4>
+    <div class="row">
+        <div class="col-lg-8">
+            <div class="text-justify container">
+                {{ vehicle.description }}
+            </div>
+        </div>
+        <div class="col-lg-4">
+            <img src="assets/images/{{ vehicle.image }}" class="vehicle-img" alt="{{ vehicle.name }}">
+            <div class="text-justify container">
+                Contract Number: {{ vehicle.contract_number }}<br>
+                Period of Performance: {{ vehicle.period_of_performance }}<br>
+                DUNS Number: {{ vehicle.duns }}<br>
+            </div>
+        </div>
+    </div>
+    
+</div>
