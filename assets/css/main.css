@@ -1,7 +1,7 @@
 /* GLOBAL STYLES
 -------------------------------------------------- */
 /* Padding below the footer and lighter body text */
-@import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,700');
+@import url('https://fonts.googleapis.com/css?family=Maven+Pro:400,500,700');
 html {
   position: relative;
   min-height: 100%;
@@ -35,38 +35,55 @@ body {
   box-shadow: 0 0.3rem 0.5rem 0 rgba(0, 0, 0, 0.6);
 }
 /* navbar */
+.logo {
+  height: 25%;
+}
 nav{
   box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.25);
-  margin-bottom: 5rem;
-}
-.navbar .navbar-brand img{
-  height: 2.5rem;
-  width: auto;
-}
-.navbar-bg{
-  background-color: #163870;
+  margin-bottom: 2em;
+  background-color: #F5F5F5;
+  min-height: 5em;
 }
 
 .navbar-light .navbar-nav .nav-link{
-  color: #E0E0E0;
+  color: rgba(22, 56, 112, 1);
+  font-weight: 500;
+  padding: 1em 0;
+  margin: 0 1em;
 }
 
-.navbar-light .navbar-nav .nav-link:hover {
-  color: #FFFFFF;
+.navbar-light .navbar-nav .nav-link::before{
+  color: #163870;
+  -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
+	-moz-transition: -moz-transform 0.3s, opacity 0.3s;
+	transition: transform 0.3s, opacity 0.3s;
+}
+
+.navbar-light .navbar-nav .nav-link:hover::before,
+.navbar-light .navbar-nav .nav-link:focus::before, {
+  color: #0f2446;
+  -webkit-transform: scale(0.9);
+	-moz-transform: scale(0.9);
+	transform: scale(0.9);
+	opacity: 0
 }
 
 .navbar-light .navbar-nav .active-page {
-  color: #FFFFFF;
+  color: #0f2446;
 }
 .nav-item {
-  font-size: 12pt;
+  font-size: 14pt;
   text-transform: capitalize;
+}
+
+.nav-link:focus{
+  color: #163870;
 }
 
 .navbar-nav > li > .dropdown-menu > .dropdown-item,
 .navbar-nav > li  > .dropdown-menu {
-  background-color: #163870;
-  color: #FFFFFF;
+  background-color: #F5F5F5;
+  color: #163870;
 }
 
 .dropdown-toggle:active, 
@@ -75,12 +92,30 @@ nav{
 .dropdown-toggle:link,
 .dropdown-item {
   background:inherit !important; 
-  color: #DFDFDF!important;
+  color: #163870!important;
 }
 
 .dropdown-toggle:hover,
 .dropdown-item:hover {
   color: #FFFFFF;
+}
+
+#collapse-menu-btn {
+  padding: 8px 12px;
+  border: 0.5px solid #F5F5F5;
+  box-shadow: 0 1px 2px 0.5px rgba(0, 0, 0, 0.1);
+  border-radius: 4px;
+}
+
+#collapse-menu-btn:hover{
+  box-shadow: 0 1px 2px 0.5px rgba(0, 0, 0, 0.1) inset;
+  color: rgba(22, 56, 112, 0.85);
+}
+
+
+.navbar-light .navbar-toggler{
+  border: none;
+  outline: none;
 }
 /* end: navbar */
 .heading-link, .heading-link:hover {
@@ -101,6 +136,7 @@ nav{
 }
 
 .vehicle-container{
+  display: inline-block;
   margin: auto;
   width: 15rem;
   height: 15rem;
@@ -108,7 +144,20 @@ nav{
 .vehicle-img {
   padding: 1rem;
   width: 15rem;
+  display: inline-block;
+  vertical-align: middle;
 }
+
+#contracting-vehicles .row .col-lg-4:nth-child(1) .vehicle-img,
+#contracting-vehicles .row .col-lg-4:nth-child(2) .vehicle-img,
+#contracting-vehicles .row .col-lg-4:nth-child(3) .vehicle-img {
+  margin-top: 25%;
+}
+
+#contracting-vehicles .row .col-lg-4:nth-child(5) .vehicle-img{
+  margin-top: 50%;
+}
+
 .client-link, 
 .client-link:hover {
   text-decoration: none;
@@ -132,12 +181,12 @@ a.dropdown-item {
 
 /* Footer section */
 .footer {
-  background-color: #163870;
-  color: rgba(255,255,255,0.75);
+  background-color: #F5F5F5;
   box-shadow: 0 1rem 2rem 2rem rgba(0, 0, 0, 0.1);
 }
 .footer-copyright {
   background-color: #0f2446;
+  color: #FFFFFF;
 }
 .footer {
   position: absolute;
@@ -151,22 +200,17 @@ a.dropdown-item {
 
 .footer a {
   text-decoration: none;
-  color: rgba(255,255,255,0.75);
 }
 
 .footer a:hover{
   text-decoration: none;
-  color: rgba(255,255,255,0.95);
+  color: #0f2446;
 }
 
-.navbar-light .navbar-toggler{
-  border: none;
-  outline: none;
+.footer-img{
+  height: 2rem;
 }
 
-.white {
-  color: #FFFFFF;
-}
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
 
