@@ -1,0 +1,28 @@
+/* All color rules are defined here */
+/* These classes can be used with all elements */
+
+/* 1. Solid colors */
+.white {
+    color: #FFFFFF;
+}
+
+.blue {
+    color: #163870;
+}
+
+/* 2. Background colors */
+.red-bg {
+    background-color: #c4001d;
+}
+
+.blue-bg {
+    background-color: #163870;
+}
+
+.white-bg {
+    background-color: #F5F5F5;
+}
+
+.medium{
+    font-weight: 500;
+}
