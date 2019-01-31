@@ -7,8 +7,6 @@
       link: /awards
     - name: Careers
       link: /careers
-    - name: Contracting Vehicles
-      link: /contracts
     - name: Leadership
       link: /about#leadership
     - name: News
@@ -17,7 +15,9 @@
       link: /about#overview
 - name: Capabilities
   link: /capabilities.html
-- name: Services
-  link: /services
+- name: Contract Vehicles
+  link: /contracts
+- name: Markets
+  link: /#
 - name: Clients
-  link: /clients
+  link: /clients.html
