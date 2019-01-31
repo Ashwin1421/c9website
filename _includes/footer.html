@@ -1,13 +1,16 @@
-<footer class="footer">
+<footer class="footer blue">
     <div class="container text-center text-md-left">
+        <div class="row">
+            <div class="col-md-2 mt-3 mb-3 ml-3">
+                <img class="footer-img" src="assets/images/footer/30777 DEV Color.png" alt="CMMI Level 3">
+            </div>
+            <div class="col-md-2 mt-3 mb-3 ml-3">
+                <img class="footer-img" src="assets/images/footer/30777 SVC Color.png" alt="CMMI Level 3">
+            </div>
+        </div>
         <div class="row">
             <div class="col-md-2 mx-auto mt-3 mb-4">
                 <img class="mb-3" src="assets/images/logo.png" alt="Cloud Nine Technologies Inc." width="100rem">
-                <p class="text-left">
-                    SBA Certified 8(a)<br>
-                    SDB CMMI Level 3<br>
-                    VA MBE
-                </p>
             </div>
 
             <div class="col-md-4 mx-auto">
@@ -15,7 +18,7 @@
                 <ul class="list-unstyled">
                     <li>
                         <p class="text-justify">
-                            <a href="mailto: contact@cloudninetech.com">
+                            <a class="blue" href="mailto: contact@cloudninetech.com">
                                 <i class="fas fa-envelope"></i>
                                 {{ site.email }}
                             </a>
@@ -41,18 +44,11 @@
             <div class="col-md-2 mx-auto">
                 <h5 class="mt-3 mb-4">Helpful Links</h5>
                 <ul class="list-unstyled">
+                    {% for item in site.data.navigation %}
                     <li>
-                        <a href="/">Home</a>
+                        <a class="blue medium" href="{{ item.link }}">{{ item.name }}</a>
                     </li>
-                    <li>
-                        <a href="/about">About Us</a>
-                    </li>
-                    <li>
-                        <a href="/services">Services</a>
-                    </li>
-                    <li>
-                        <a href="/clients">Clients</a>
-                    </li>
+                    {% endfor %}
                 </ul>
             </div>
 
@@ -61,7 +57,7 @@
                 <ul class="list-unstyled">
                     {% for vehicle in site.data.contract-vehicles %}
                     <li>
-                        <a href="{{ vehicle.link }}">
+                        <a class="blue" href="{{ vehicle.link }}">
                             {{ vehicle.name }}
                         </a>
                     </li>
@@ -72,7 +68,7 @@
     </div>
     <div class="container clearfix text-center">
         <a class="social-share-icon" href="{{ site.linkedin_url }}" title="Follow Us on LinkedIn">
-            <i class="fab fa-linkedin"></i>
+            <i class="fab fa-linkedin blue"></i>
         </a>
     </div>
     <!-- Copyright -->

@@ -1,6 +1,6 @@
-<nav class="navbar navbar-expand-lg navbar-light navbar-bg">
+<nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="/">
-        <img src="assets/images/logo-wh-2.png" alt="Cloud Nine Technologies Inc.">
+        <img class="logo" src="assets/images/logo-sm.png" alt="Cloud Nine Technologies Inc.">
     </a>
     <button 
         class="navbar-toggler" 
@@ -10,7 +10,7 @@
         aria-controls="navbarCollapse" 
         aria-expanded="false" 
         aria-label="Toggle navigation">
-        <span class="white">
+        <span id="collapse-menu-btn" class="blue">
             <i class="fas fa-bars"></i>
         </span>
     </button>
@@ -20,7 +20,7 @@
                 {% if item.name == 'About' %}
                 <li class="nav-item dropdown">
                     <a 
-                        class="nav-link dropdown-toggle" 
+                        class="nav-link bold blue" 
                         href="{{ item.link }}" 
                         id="navbar-dropdown-menu" 
                         data-toggle="dropdown"
@@ -36,7 +36,7 @@
                 </li>
                 {% else %}
                 <li class="nav-item">
-                    <a class="nav-link {% if page.url == item.link %} active-page {% endif %}" href="{{ item.link }}">
+                    <a class="nav-link {% if page.url == item.link %} active-page {% endif %} bold blue" href="{{ item.link }}">
                         {{ item.name }}
                     </a>
                 </li>
