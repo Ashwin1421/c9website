@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
     <a class="navbar-brand" href="/">
-        <img class="logo" src="assets/images/logo-sm.png" alt="Cloud Nine Technologies Inc.">
+        <img class="logo" src="assets/images/branding/CLOUD_9.jpg" alt="Cloud Nine Technologies Inc.">
     </a>
     <button 
         class="navbar-toggler" 
@@ -20,7 +20,7 @@
                 {% if item.name == 'About' %}
                 <li class="nav-item dropdown">
                     <a 
-                        class="nav-link bold blue" 
+                        class="nav-link" 
                         href="{{ item.link }}" 
                         id="navbar-dropdown-menu" 
                         data-toggle="dropdown"
@@ -36,7 +36,7 @@
                 </li>
                 {% else %}
                 <li class="nav-item">
-                    <a class="nav-link {% if page.url == item.link %} active-page {% endif %} bold blue" href="{{ item.link }}">
+                    <a class="nav-link {% if page.url == item.link %} active-page {% endif %}" href="{{ item.link }}">
                         {{ item.name }}
                     </a>
                 </li>
