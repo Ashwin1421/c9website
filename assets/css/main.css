@@ -7,11 +7,10 @@ html {
   min-height: 100%;
   padding-bottom: 20em;
 }
-
 body {
   font-family: 'Maven Pro', sans-serif;
   margin-bottom: 5em;
-  background-color: #e9eef7;
+  background-color: rgba(0,0,255,0.05);
 }
 
 /* scroll to top button */
@@ -23,7 +22,8 @@ body {
   z-index: 99;
   border: none;
   outline: none;
-  background-color: #c4001d;
+  transition: 0.3s ease;
+  background-color: #ad2929;
   color: #FFFFFF;
   cursor: pointer;
   border-radius: 50%;
@@ -33,6 +33,8 @@ body {
   box-shadow: 0 0.25rem 0.5rem 0 rgba(0, 0, 0, 0.5);
 }
 #scroll-to-top:hover{
+  transition: 0.3s ease-in;
+  background-color: #bc3834;
   box-shadow: 0 0.3rem 0.5rem 0 rgba(0, 0, 0, 0.6);
 }
 /* navbar */
@@ -40,49 +42,43 @@ body {
   height: 2.5em;
 }
 nav{
-  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
   margin-bottom: 2em;
   background-color: #F5F5F5;
   min-height: 2.5em;
 }
 
 .navbar-light .navbar-nav .nav-link{
-  color: rgba(22, 56, 112, 1);
   font-weight: 500;
   padding: 1em 0;
   margin: 0 1em;
 }
-
-.navbar-light .navbar-nav .nav-link::before{
-  color: #163870;
-  -webkit-transition: -webkit-transform 0.3s, opacity 0.3s;
-	-moz-transition: -moz-transform 0.3s, opacity 0.3s;
-	transition: transform 0.3s, opacity 0.3s;
+nav .active-page{
+  border-bottom: 4px solid #004e94;
+}
+nav .active-page a{
+  color: #004e94 !important;
 }
 
-.navbar-light .navbar-nav .nav-link:hover {
-  color: #0f2446;
-  margin-top: 8px solid #0f2446;
-}
-
-.navbar-light .navbar-nav .active-page {
-  color: #0f2446;
-  border-bottom: 2px solid #0f2446;
-  height: inherit;
-}
 .nav-item {
   font-size: 12pt;
   text-transform: capitalize;
+  border-bottom: 2px solid transparent;
+}
+.navbar-light .navbar-nav .nav-item:hover {
+  border-bottom: 4px solid #004e94;
+  transition: 0.2s ease;
+}
+.navbar-light .navbar-nav .nav-item:hover .nav-link{
+  color: #004e94;
+  transition: 0.2s ease;
 }
 
-.nav-link:focus{
-  color: #163870;
-}
 
 .navbar-nav > li > .dropdown-menu > .dropdown-item,
 .navbar-nav > li  > .dropdown-menu {
   background-color: #F5F5F5;
-  color: #163870;
+  color: #004e94;
 }
 
 .dropdown-toggle:active, 
@@ -91,12 +87,13 @@ nav{
 .dropdown-toggle:link,
 .dropdown-item {
   background:inherit !important; 
-  color: #163870!important;
+  color: #505050!important;
+  font-weight: 500;
 }
 
 .dropdown-toggle:hover,
 .dropdown-item:hover {
-  color: #0f2446;
+  color: #004e94 !important;
 }
 
 #collapse-menu-btn {
@@ -131,8 +128,8 @@ nav{
   display: block;
   margin: auto;
   padding: 1rem;
-  width: 10rem;
-  height: 10rem;
+  max-width: 50%;
+  height: auto;
 }
 
 .vehicle-container{
@@ -171,7 +168,7 @@ nav{
 }
 
 .highlight-icon {
-  color: #163870;
+  color: #004e94;
   margin: 2.5rem;
 }
 
@@ -181,35 +178,66 @@ a.dropdown-item {
 
 /* Footer section */
 .footer {
-  background-color: #F5F5F5;
-  box-shadow: 0 1.5rem 2rem 2rem rgba(0, 0, 0, 0.2);
-}
-.footer-copyright {
-  background-color: #0f2446;
-  color: #FFFFFF;
-}
-.footer {
   position: absolute;
   bottom: 0;
   width: 100%;
+  height: 20em;
+  background-color: #F5F5F5;
+  box-shadow: 0 -0.5rem 1rem 0 rgba(0, 0, 0, 0.1);
+  background-size: 100%;
+  
+}
+.footer-copyright {
+  background-color: #333333;
+  color: #FFFFFF;
 }
 
+#footer-content {
+  overflow: hidden;
+}
 .footer p {
   bottom: 0;
 }
 
-.footer a {
+.footer-link:hover{
+  transition: 0.3s ease;
+  color: #004e94;
+}
+.contact-link {
+  color: #505050;
   text-decoration: none;
 }
 
-.footer a:hover{
-  text-decoration: none;
-  color: #0f2446;
+.fa-phone {
+  -moz-transform: scaleX(-1);
+  -o-transform: scaleX(-1);
+  -webkit-transform: scaleX(-1);
+  transform: scaleX(-1);
+  filter: FlipH;
+  -ms-filter: "FlipH";
+}
+.contact-link:hover {
+  text-decoration: underline;
+  color: #004e94;
+  transition: 0.3s ease;
 }
 
 .footer-img{
   height: 2rem;
 }
+
+.footer-logo {
+  width: 80%;
+  max-width: 50%;
+  vertical-align: middle;
+  margin-top: 25%;
+}
+
+.footer-slogan {
+  height: 1.5rem;
+  margin-left: 0;
+}
+
 
 /* CUSTOMIZE THE CAROUSEL
 -------------------------------------------------- */
@@ -299,6 +327,7 @@ a.dropdown-item {
   .featurette-heading {
     font-size: 50px;
   }
+  
 }
 
 @media (min-width: 62em) {

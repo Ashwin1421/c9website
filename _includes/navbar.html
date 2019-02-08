@@ -18,7 +18,7 @@
         <ul class="navbar-nav ml-auto">
             {% for item in site.data.navigation %}
                 {% if item.name == 'About' %}
-                <li class="nav-item dropdown">
+                <li class="nav-item dropdown {% if page.url == item.link %} active-page {% endif %}">
                     <a 
                         class="nav-link" 
                         href="{{ item.link }}" 
@@ -35,8 +35,8 @@
                     </div>
                 </li>
                 {% else %}
-                <li class="nav-item">
-                    <a class="nav-link {% if page.url == item.link %} active-page {% endif %}" href="{{ item.link }}">
+                <li class="nav-item {% if page.url == item.link %} active-page {% endif %}">
+                    <a class="nav-link " href="{{ item.link }}">
                         {{ item.name }}
                     </a>
                 </li>

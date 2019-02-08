@@ -6,7 +6,7 @@ title: Clients
     <h3 class="text-center">Clients</h3>
     <div class="row">
         {% for client in site.data.clients %}
-        <div class="client-container col-lg-4">
+        <div class="client-container col-sm-4">
             <a href="{{ client.link }}" title="{{ client.name }}">
                 <img class="text-center client-img" alt="{{ client.name }}" src="assets/images/{{ client.image }}">
             </a>

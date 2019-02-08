@@ -7,16 +7,16 @@
 }
 
 .blue {
-    color: #163870;
+    color: #004e94;
 }
 
 /* 2. Background colors */
 .red-bg {
-    background-color: #c4001d;
+    background-color: #ad2929;
 }
 
 .blue-bg {
-    background-color: #163870;
+    background-color: #004e94;
 }
 
 .white-bg {
@@ -25,4 +25,11 @@
 
 .medium{
     font-weight: 500;
+}
+
+.gray {
+    color: #D5D5D5;
+}
+.dark-gray {
+    color: #505050;
 }

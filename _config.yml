@@ -15,8 +15,12 @@
 # in the templates via {{ site.myvariable }}.
 title: Cloud Nine Technologies Inc.
 email: contact@cloudninetech.com
-phy-address: 2553 Dulles View Dr., Suite 240, Herndon, VA 20171
-phone: 703-314-9009 / 703-869-9051
+phy-address: 2553 Dulles View Dr.,<br/> Suite 240,<br/> Herndon, VA 20171
+phy-address-link: https://goo.gl/maps/NYqg6RzR5b52
+phone-1: 703-314-9009
+tel-1: 1-703-314-9009
+phone-2: 703-869-9051
+tel-2: 1-703-869-9051
 description: >- # this means to ignore newlines until "baseurl:"
   Cloud Nine has a proven track record of providing quality IT services and 
   delivering award-winning applications to our customers.
