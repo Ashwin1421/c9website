@@ -10,7 +10,7 @@ html {
 body {
   font-family: 'Maven Pro', sans-serif;
   margin-bottom: 5em;
-  background-color: rgba(0,0,255,0.05);
+  background-color: rgba(0, 78, 148, 0.05);
 }
 
 /* scroll to top button */
@@ -53,9 +53,6 @@ nav{
   padding: 1em 0;
   margin: 0 1em;
 }
-nav .active-page{
-  border-bottom: 4px solid #004e94;
-}
 nav .active-page a{
   color: #004e94 !important;
 }
@@ -65,11 +62,8 @@ nav .active-page a{
   text-transform: capitalize;
   border-bottom: 2px solid transparent;
 }
-.navbar-light .navbar-nav .nav-item:hover {
-  border-bottom: 4px solid #004e94;
-  transition: 0.2s ease;
-}
-.navbar-light .navbar-nav .nav-item:hover .nav-link{
+
+.navbar-light .navbar-nav .nav-item:hover .nav-link:hover{
   color: #004e94;
   transition: 0.2s ease;
 }
@@ -105,7 +99,7 @@ nav .active-page a{
 
 #collapse-menu-btn:hover{
   box-shadow: 0 1px 2px 0.5px rgba(0, 0, 0, 0.1) inset;
-  color: rgba(22, 56, 112, 0.85);
+  color: rgba(0, 78, 148, 1);
 }
 
 
@@ -132,6 +126,15 @@ nav .active-page a{
   height: auto;
 }
 
+/* start:capabilities-section */
+#capabilities-section .card,
+#capabilities-section .card-footer{
+  border: none;
+  background: none;
+}
+/* end:capabilities-section */
+/* start:contract-vehicles */
+
 .vehicle-container{
   display: inline-block;
   margin: auto;
@@ -154,6 +157,22 @@ nav .active-page a{
 #contracting-vehicles .row .col-lg-4:nth-child(5) .vehicle-img{
   margin-top: 50%;
 }
+
+.contract-vehicle-desc {
+  border: 1px solid rgba(0, 78, 148, 0.05);
+  border-radius: 1em;
+  box-shadow: 0 2px 4px 0 rgba(0, 78, 148, 0.05);
+}
+.contract-vehicle-desc .col-lg-8{
+  border-right: 1px solid rgba(0, 78, 148, 0.05);
+}
+
+.contract-vehicle-desc .col-lg-8,
+.contract-vehicle-desc .col-lg-4{
+  padding: 1.5em;
+}
+
+/* end:contract-vehicles  */
 
 .client-link, 
 .client-link:hover {
