@@ -4,16 +4,20 @@ title: Home
 ---
 {% include carousel.html %}
 <!-- highlights -->
-<div class="container marketing">
+<div id="capabilities-section" class="container">
     <div class="row">
         {% for c in site.data.capabilities %}
-        <div class="col-lg-3 text-center">
-            <span>
-              <i class="fas {{ c.icon-class }} fa-5x highlight-icon"></i>
-            </span>
-            <h4>{{ c.title }}</h4>
-            <p>{{ c.description }}</p>
-            <p><a class="btn btn-secondary" href="{{ c.link }}" role="button">View details &raquo;</a></p>
+        <div class="card col-lg-3 text-center">
+            <div class="card-body">
+                <span>
+                    <i class="fas {{ c.icon-class }} fa-5x highlight-icon"></i>
+                </span>
+                <h4>{{ c.title }}</h4>
+                <p>{{ c.description }}</p>
+            </div>
+            <div class="card-footer">
+                <a class="btn btn-secondary" href="{{ c.link }}" role="button">View details &raquo;</a>
+            </div>
         </div><!-- /.col-lg-3 -->
         {% endfor %}
     </div><!-- /.row -->
